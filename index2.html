@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="icon" href="./assets/images/indir.png" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="row">
+    <div class="navbar d-md-flex d-sm-flex d-block justify-content-between align-items-center">
+        <div class="jstyle d-flex  align-items-center ">
+            <h4 class="mx-2">node JStyle.js</h4><h1>v2.4.0</h1>
+        </div>
+        <input type="text" id="search" placeholder="search">
+        <button id="login-btn">Log in</button>
+    </div>
+  </header>
+  <section class="burger-div">
+    <input type="checkbox" id="burger-menu">
+    <label class="burger-box" for="burger-menu">
+       <span></span>
+    </label>
+  </section>
+  <!-- left-menu -->
+  <section class="row" style="display: flex;">
+    <section class="left-menu-section">
+        <section class="page-list-section">
+         
+          <ul>
+              <li><a>Home             </a></li>
+              <li><a>Flow             </a></li>
+              <li><a>Discover         </a></li>
+              <li><a>Articles         </a></li>
+              <li><a>Questions&Answers</a></li>
+          </ul>
+      </section>
+      <section class="programming-list-section">
+          <ul>
+              <li><a>HTML5      </a></li>
+              <li><a>CSS3       </a></li>
+              <li><a>JavaScript </a></li>
+              <li><a>Node JS    </a></li>
+              <li><a>React JS   </a></li>
+              <li><a>Electron JS</a></li>
+              <li><a>Python     </a></li>
+              <li><a>Database   </a></li>
+              <li><a>MySql      </a></li>
+              <li><a>Mongo Db   </a></li>
+              <li><a>Commercy sites   </a></li>
+              <li><a>Php        </a></li>
+          </ul>
+      </section>
+      <section class="button-section">
+         <div class="darkmode-box" id="checkmode-div">
+             <label for="checkmode"><i class="fas fa-moon"></i><h1>Dark Mode</h1></label>
+             <input type="checkbox" id="checkmode">
+         </div>
+      </section>
+    </section>
+    <section id="main-content" class="col">
+        <div class="text">
+            <h4>Destroy your limits!</h4>
+        </div>
+        <div class="programming d-md-flex ">
+            <section class="sect-1 col-md-4 col-sm-12 col-12">
+                <div class="pr-name"><h4>HTML</h4></div>
+                <div class="pr-info">HyperText Markup Language (HTML) is the set of markup symbols or codes inserted into a file intended for display on the Internet. The markup tells web browsers how to display a web page's words and images.HTML is like the wood from which we construct an object: we can aim small and not have to know much.<div style="color: blueviolet;">Sample Code:</div> <br> <div style="color: #d3244dbe;">&lt;h4&gt;HTML&lt;/h4&gt  </div>
+                
+                </div>
+            </section>
+            <section class="sect-1 col-md-4 col-sm-12 col-12">
+                <div class="pr-name"><h4>CSS</h4></div>
+                <div class="pr-info">                Stands for "Cascading Style Sheet." Cascading style sheets are used to format the layout of Web pages. They can be used to define text styles, table sizes, and other aspects of Web pages that previously could only be defined in a page's HTML. Plus, CSS makes it easy to change styles across several pages at once.<div style="color: blueviolet;">Sample Code:</div> <br> <div style="color: #d3244dbe;">h4{font-size:18px;}</div>            
+                </div>
+            </section>
+            <section class="sect-1 col-md-4 col-sm-12 col-12">
+                <div class="pr-name"><h4>JavaScript</h4></div>
+                <div class="pr-info">JavaScript is a programming language commonly used in web development. It was originally developed by Netscape as a means to add dynamic and interactive elements to websites. JS file, which may also be viewed in a browser. ... Below is an example of a basic JavaScript function that adds two numbers.<div style="color: blueviolet;">Sample Code:</div> <br> <div style="color: #d3244dbe;">alert("Hi,I'm JavaScript,I'm not Java")</div>            
+                </div>
+            </section>
+        </div>
+    </section>
+  </section>
+
+
+
+
+
+<!-- JS && CDN scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/cesiumjs/1.78/Build/Cesium/Cesium.js"></script>
+    <script src="./assets/js/translate.js"></script>
+
+</body>
+</html>
